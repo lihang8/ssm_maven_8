@@ -7,4 +7,7 @@ public interface ItemsMapper{
 
     //根据id查询
     public Items findById(Integer id);
+
+    //添加
+    public  void add();
 }
